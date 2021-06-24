@@ -56,9 +56,10 @@ footer {
     margin-right: auto;
 } 
 
+/* Placed the photo of myself to the left of the About Me info */
 .hannah{ 
     float: left;
-    width: 200px;
+    width: 300px;
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
