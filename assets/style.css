@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Homemade Apple', cursive;
 }
 
@@ -38,30 +38,39 @@ nav a {
     margin-left: 15px;
 }
 
+footer { 
+    position: relative;
+    bottom: 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    text-align: center;
+}
 /* Added styling to image at tope of page so that it is centered and sized correctly to be a divider between the navigation bar and the webpage content */
+
 .birds{
     height: 5%;
     width: 40%;
     display: block;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: auto;
+    margin-right: auto;
+} 
 
 .hannah{ 
-    display: flex;
-    flex-wrap: wrap;
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
 }
+
 .maincontainer {
     max-width: 80%;
 }
 
 .aboutcontainer {
-    padding: 50px;
-    height: 300px;
-    margin-left: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-content: flex-start;
+    padding: 0px 0px 0px 30px;
+    width: 80%;
 }
 
 .Container {
@@ -69,12 +78,20 @@ nav a {
     align-items: center;
 }
 
-..flex-box {
-    font-family: 'Homemade Apple', cursive;
+.flex-box {
+    font-family: 'Quicksand', sans-serif;
+    border-right: 5px black;
+    padding: 0px 20px 0px 20px;
+    width: 25%;
     text-align: right;
-    width: 30%;
 }
 
+.contactoptions {
+    display: flex;
+    padding: 0px 0px 0px 30px;
+    width: 75%;
+    align-self: center;
+}
 .contactlinks {
     display: flex;
     flex-wrap: wrap;
@@ -83,13 +100,4 @@ nav a {
     align-items: center;
     align-content: stretch;
     margin-left: 175px;
-}
-
-/* Added css styling to make footer image span the entire bottom of the webpage */
-.treeline {
-    width: 100%;
-    display: block;
-    margin-left: 0px;
-    margin-right: 0px;
-    background-size: 100%, 100%;
 }
