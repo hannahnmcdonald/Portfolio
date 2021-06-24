@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hannah McDonald Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Hannah McDonald Portfolio </title>
 </head>
 <body>
     <header>
@@ -12,12 +16,19 @@
         <h1 class="Title">
             Hannah McDonald
         </h1>
-        <nav class= "Links">
+        <h2>
+            <nav class= "Links">
                 <a href="#About">About</a>
                 <a href="#Work">Work</a>
                 <a href="#Contact">Contact</a>
-        </nav>
+            </nav>
+        </h2>
     </header>
+
+    <figure>
+        <!--Using an image to create a break between the content of the webpage and my navigation bar-->
+        <img src="https://pluspng.com/img-png/flock-of-birds-png-png-8000x2087-flock-of-birds-transparent-background-8000.png" alt="flock of birds flying" class="birds">
+    </figure>
 
     <main class="maincontainer">
         <!-- About section-->
@@ -27,11 +38,15 @@
                     About
                 </h2>
             </div>
-            <p class="bio">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus error impedit corrupti consequuntur? Non, maiores officia vitae perspiciatis, minus voluptas magnam atque adipisci placeat aut recusandae veniam? Atque, eveniet est?
-            </p>
+                <section class="aboutcontainer">
+                    <!-- Added image of myself to the about me section-->
+                    <img src= "aboutme.jpg" alt="hannah at the grand canyon" class="hannah">
+                    <p class="bio">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus error impedit corrupti consequuntur? Non, maiores officia vitae perspiciatis, minus voluptas magnam atque adipisci placeat aut recusandae veniam? Atque, eveniet est?
+                     </p>
+                </section>
         </section>
-        <!-- Work showcase section, complete with links to the application-->
+        <!-- Work showcase section, complete with links to the application, will add content later-->
         <section class="Container" id="Work">
             <div class="flex-box" >
             <h2 class="Subtitle">
@@ -64,6 +79,10 @@
                     </nav>
             </div>
         </section>
+        <!-- Added footer image to fit with the outdoorsy theme of the webpage and to add some style-->
+    <footer>
+        <img src="http://clipart-library.com/images_k/forest-treeline-silhouette/forest-treeline-silhouette-3.png" alt="foggy treeline" class="treeline">
+    </footert>
     </main>
 </body>
 </html>

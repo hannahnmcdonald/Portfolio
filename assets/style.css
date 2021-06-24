@@ -1,20 +1,29 @@
 body {
-    background-color: rgb(171, 202, 200);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 16px;
 }
 
-h1, h2 {
-    font size: 20px;
+h1 {
+    font-size: 40px;
+    font-family: 'Homemade Apple', cursive;
+}
+
+h2 {
+    font-size: 30px ;
 }
 
 header {
-    padding: 40px 40px;
+    padding: 30px 30px;
+    border: 2px;
+    border-bottom: black 5px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+main {
     background-color: white;
 }
 
@@ -29,32 +38,41 @@ nav a {
     margin-left: 15px;
 }
 
+/* Added styling to image at tope of page so that it is centered and sized correctly to be a divider between the navigation bar and the webpage content */
+.birds{
+    height: 5%;
+    width: 40%;
+    display: block;
+    margin-left: 300px;
+    margin-right: 300px;
+
+.hannah{ 
+    display: flex;
+    flex-wrap: wrap;
+}
 .maincontainer {
     max-width: 80%;
 }
 
-.Container {
+.aboutcontainer {
+    padding: 50px;
+    height: 300px;
+    margin-left: 300px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+
+.Container {
+    display: flex;
     align-items: center;
-    padding: 15px;
 }
 
-.Subtitle {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin-left: 35px;
-}
-
-.flex-box {
-    flex-direction: column;
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
+..flex-box {
+    font-family: 'Homemade Apple', cursive;
+    text-align: right;
+    width: 30%;
 }
 
 .contactlinks {
@@ -67,8 +85,11 @@ nav a {
     margin-left: 175px;
 }
 
-.bio {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 175px;
+/* Added css styling to make footer image span the entire bottom of the webpage */
+.treeline {
+    width: 100%;
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-size: 100%, 100%;
 }
