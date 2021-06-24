@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(171, 202, 200);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2 {
+    font size: 20px;
+}
+
+header {
+    padding: 40px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+nav a {
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.maincontainer {
+    max-width: 80%;
+}
+
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.Subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 35px;
+}
+
+.flex-box {
+    flex-direction: column;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.contactlinks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+    margin-left: 175px;
+}
+
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 175px;
+}
