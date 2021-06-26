@@ -96,7 +96,7 @@ footer {
 .Container {
     display: flex;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 200px;
     margin-bottom: 300px;
 }
 
@@ -110,16 +110,16 @@ footer {
 
 .contactoptions {
     display: flex;
-    padding: 0px 0px 0px 30px;
+    padding: 0px 60px 0px 30px;
     width: 75%;
     align-self: center;
 }
+
 .contactlinks {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    align-content: stretch;
+    justify-content: space-around;
+    align-self: center;
     margin-left: 300px;
 }
