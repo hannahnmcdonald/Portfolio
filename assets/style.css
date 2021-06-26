@@ -58,10 +58,6 @@ nav a {
 
 footer { 
     position: relative;
-    bottom: 0px;
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 50%;
     text-align: center;
 }
 /* Added styling to image at tope of page so that it is centered and sized correctly to be a divider between the navigation bar and the webpage content */
@@ -76,25 +72,37 @@ footer {
 
 /* Placed the photo of myself to the left of the About Me info */
 .hannah{ 
-    float: left;
-    width: 300px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 250px;
+    width: 275px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 400px;
+    width: 700px;
+}
 .maincontainer {
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .aboutcontainer {
-    padding: 0px 0px 0px 30px;
-    width: 80%;
-    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Container {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
     align-items: center;
     margin-top: 200px;
     margin-bottom: 300px;
@@ -102,12 +110,12 @@ footer {
 
 .flex-box {
     font-family: 'Quicksand', sans-serif;
-    border-right: 10px black;
     padding: 0px 25px 0px 25px;
-    width: 25%;
-    text-align: right;
 }
 
+.contact {
+    margin-top: 75px;
+}
 .contactoptions {
     display: flex;
     padding: 0px 60px 0px 30px;
@@ -119,7 +127,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-self: center;
-    margin-left: 300px;
+}
+.Subtitle {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:column;
 }
