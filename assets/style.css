@@ -1,3 +1,5 @@
+
+/* added custom variables for colors*/
 :root {
     --light: #FFFFFF;
     --dark: black;
@@ -12,15 +14,15 @@ body {
 }
 
 a:link {
-    color:var(--dark);
+    color:var(--accent);
     text-decoration: none;
 }
 a:active {
-    color: var(--dark);
+    color: var(--accent);
     text-decoration: none;
 }
 a:visited {
-    color:var(--dark);
+    color:var(--accent);
     text-decoration: none;
 }
 a:hover {
@@ -104,6 +106,7 @@ footer {
 .boldbio {
     text-align: center;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .maincontainer {
@@ -186,7 +189,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 60px 100px 60px 100px;
+    margin: 60px 100px 30px 100px;
   
 }
 .firstcontainer {
@@ -196,15 +199,19 @@ footer {
     border: 5px solid var(--dark);
     margin-top: 10px;
     cursor: pointer;
+    border-radius: 2rem;
+    text-align: center;
 }
 .secondarycontainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: row;
     width: 300px;
-    height: 425px;
+    height: 550px;
     background-color: var(--light);
     border: 5px solid var(--dark);
     margin-top: 10px;
     cursor: pointer;
+    border-radius: 2rem;
+    text-align: center;
 }
