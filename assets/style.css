@@ -10,8 +10,9 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    margin-left: 100px;
 }
 
 a:link {
@@ -37,7 +38,7 @@ h1 {
 }
 
 h2 {
-    font-size: 45px ;
+    font-size: 40px ;
     font-weight: bolder;
 }
 
@@ -202,7 +203,7 @@ footer {
     width: 700px;
     height: 550px;
     background-color: var(--light);
-    border: 3px solid var(--dark);
+    border: 5px solid var(--dark);
     margin-top: 10px;
     cursor: pointer;
     border-radius: 2rem;
@@ -217,7 +218,7 @@ footer {
     width: 300px;
     height: 550px;
     background-color: var(--light);
-    border: 3px solid var(--dark);
+    border: 5px solid var(--dark);
     margin: 10px 10px 10px 10px;
     cursor: pointer;
     border-radius: 2rem;
@@ -226,8 +227,12 @@ footer {
 
 @media only screen and (max-width: 768px) {
 
+    body {
+        margin: auto;
+    }
+    
     h2 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     }
