@@ -15,6 +15,23 @@ body {
     margin-left: 100px;
 }
 
+a.toplink:link {
+    color:var(--light);
+    text-decoration: none;
+}
+a.toplink:active {
+    color: var(--light);
+    text-decoration: none;
+}
+a.toplink:visited {
+    color:var(--light);
+    text-decoration: none;
+}
+a.toplink:hover {
+    color: var(--accent);
+    text-decoration: none;
+}
+
 a:link {
     color:var(--dark);
     text-decoration: none;
@@ -49,6 +66,7 @@ header {
     border: 2px;
     border-bottom: var(--dark) 5px;
     display: fixed;
+    position: fixed center;
     text-align: center;
     top: 0;
     width: 100%;
@@ -59,11 +77,9 @@ main {
 }
 
 .navbar {
-    display: block;
-    position: fixed center;   
+    display: block;  
     text-align: center;
-    
-
+    background-color: var(--dark);
 }
 
 nav a {
