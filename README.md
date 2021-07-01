@@ -13,10 +13,10 @@ Link to Deployed Application:
 
 
 Desktop Screenshot:
-![Desktop Screenshot](/desktopportfolioscreenshot.png)
+![Desktop Screenshot](./images/desktopportfolioscreenshot.png)
 
 Mobile Screenshot:
-![Mobile Screenshot](/mobileportfolioscreenshot.png)
+![Mobile Screenshot](./images/mobileportfolioscreenshot.png)
 
 Installation: N/A
 
