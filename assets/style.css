@@ -112,6 +112,14 @@ footer {
     padding: 50px 50px 50px 50px;
     border-radius: 4rem;
 }
+
+/* NOTE: Made the first line of my about me bold and larger than rest of text to be a greeting */
+.boldbio {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 /* NOTE: Centered all bio information in the about section */
 
 .bio {
@@ -123,12 +131,6 @@ footer {
     text-align: center;
     font-size: 16px;
 }  
-/* NOTE: Made the first line of my about me bold and larger than rest of text to be a greeting */
-.boldbio {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-}
 
 .maincontainer {
     max-width: 100%;
