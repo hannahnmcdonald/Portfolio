@@ -15,7 +15,11 @@ Link to Deployed Application:
 Desktop Screenshot:
 ![Desktop Screenshot](./images/desktopportfolioscreenshot.png)
 
+_____________________________________________________________________________________________________________________________________________________________________
 Mobile Screenshot:
+
+
+
 ![Mobile Screenshot](./images/mobileportfolioscreenshot.png)
 
 Installation: N/A
