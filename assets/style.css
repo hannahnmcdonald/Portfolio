@@ -1,20 +1,20 @@
 
-/* added custom variables for colors*/
+/* NOTE: added custom variables for colors*/
 :root {
     --light: #FFFFFF;
     --dark: black;
     --accent: #548677;
 }
-
+/* NOTE: Utilized Google Fonts below in the body */
 body {
     font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     margin-left: 100px;
 }
-
+/* NOTE: Added link options for the top nav bar links */
 a.toplink:link {
     color:var(--light);
     text-decoration: none;
@@ -31,7 +31,7 @@ a.toplink:hover {
     color: var(--accent);
     text-decoration: none;
 }
-
+/* NOTE: Added link options for the bottom contact links with the Font Awesome Icons */
 a:link {
     color:var(--dark);
     text-decoration: none;
@@ -48,7 +48,7 @@ a:hover {
     color: var(--accent);
     text-decoration: none;
 }
-
+/* NOTE: Utilized Google Fonts below within the header */
 h1 {
     font-size: 70px;
     font-family: 'Sail', cursive;
@@ -62,7 +62,6 @@ h2 {
 }
 
 header {
-    padding: 30px 30px;
     border: 2px;
     border-bottom: var(--dark) 5px;
     display: fixed;
@@ -91,7 +90,7 @@ footer {
     position: relative;
     text-align: center;
 }
-/* Added styling to image at tope of page so that it is centered and sized correctly to be a divider between the navigation bar and the webpage content */
+/* NOTE: Added styling to image at tope of page so that it is centered and sized correctly to be a divider between the navigation bar and the webpage content */
 
 .birds{
     height: 5%;
@@ -103,7 +102,7 @@ footer {
     margin-bottom: 30px;
 } 
 
-/* Placed the photo of myself to the left of the About Me info */
+/* NOTE: Placed the photo of myself above the About Me info */
 .hannah{ 
     display: flex;
     flex-wrap: wrap;
@@ -113,7 +112,7 @@ footer {
     padding: 50px 50px 50px 50px;
     border-radius: 4rem;
 }
-/* Centered all bio information in the about section */
+/* NOTE: Centered all bio information in the about section */
 
 .bio {
     display: flex;
@@ -124,7 +123,7 @@ footer {
     text-align: center;
     font-size: 16px;
 }  
-
+/* NOTE: Made the first line of my about me bold and larger than rest of text to be a greeting */
 .boldbio {
     text-align: center;
     font-size: 30px;
@@ -148,7 +147,7 @@ footer {
     text-align: center;
 }
 
-.Container {
+.container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -180,8 +179,8 @@ footer {
     align-self: center;
 }
 
-/* Added underline under each subtitle class on page for better readability */
-.Subtitle {
+/* NOTE: Added underline under each subtitle class on page for better readability */
+.subtitle {
     display: flex;
     flex-wrap:wrap;
     flex-direction:column;
@@ -199,7 +198,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-/* Added containers for the photos for the applications so they can be contained in their own section with their title and brief description */
+/* NOTE: Added containers for the photos for the applications so they can be contained in their own section with their title and brief description */
 .secondphotos {
     display: flex;
     flex-wrap: wrap;
@@ -244,7 +243,7 @@ footer {
     border-radius: 2rem;
     text-align: center;
 }
-
+/* NOTE: Added hover effects to the container containing my applications. These are not developed applications yet, but when I do develop them I will be able to link them here */
 .firstcontainer:hover {
     border-color: var(--accent);
     text-decoration: none;
@@ -254,11 +253,11 @@ footer {
     border-color: var(--accent);
     text-decoration: none;
 }
-
+/* NOTE: Added captions under the photos in my applications for a brief description */
 figcaption {
     font-size: 16px;
 }
-
+/* NOTE: Added media Query to make the page more responsive to screen sizes */
 @media only screen and (max-width: 768px) {
 
     body {
