@@ -9,7 +9,7 @@ I tried to also create a design that was personal to me and descriptive of my in
 
 All applications listed in the Work section, are my own application ideas that have not been created as of yet. Once I do create them, I will link them on this portfolio page.
 
-Link to Deployed Application:
+Link to Deployed Application: https://hannahnmcdonald.github.io/Portfolio/
 
 
 Desktop Screenshot:
