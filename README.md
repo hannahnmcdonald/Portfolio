@@ -20,7 +20,7 @@ Mobile Screenshot:
 
 
 
-![Mobile Screenshot](./images/mobileportfolioscreenshot.png)
+![Mobile Screenshot1](./images/mobileportfolioscreenshot1.png)
 ![Mobile Screenshot2](./images/mobileportfolioscreenshot2.png)
 ![Mobile Screenshot3](./images/mobileportfolioscreenshot3.png)
 ![Mobile Screenshot4](./images/mobileportfolioscreenshot4.png)
