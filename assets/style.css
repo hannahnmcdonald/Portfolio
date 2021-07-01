@@ -90,11 +90,6 @@ footer {
     position: relative;
     text-align: center;
 }
-
-.treeline {
-    display: block;
-    text-align: center;
-}
 /* NOTE: Added styling to image at tope of page so that it is centered and sized correctly to be a divider between the navigation bar and the webpage content */
 
 .birds{
@@ -319,6 +314,11 @@ figcaption {
 
     body {
         width: 85%;
-  }
+     }
+
+     .treeline {
+         width: 100%;
+        padding: 0px;
+    }
 
 }
