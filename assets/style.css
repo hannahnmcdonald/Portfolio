@@ -219,6 +219,7 @@ footer {
     cursor: pointer;
     border-radius: 2rem;
     text-align: center;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .secondarycontainer {
@@ -234,6 +235,7 @@ footer {
     cursor: pointer;
     border-radius: 2rem;
     text-align: center;
+    box-shadow: 10px 10px 5px grey;
 }
 /* NOTE: Added hover effects to the container containing my applications. These are not developed applications yet, but when I do develop them I will be able to link them here */
 .firstcontainer:hover {
