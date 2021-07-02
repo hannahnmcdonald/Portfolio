@@ -59,16 +59,18 @@ h2 {
     font-size: 30px ;
     font-weight: bolder;
     text-align: center;
+    display: inline-block;
 }
 
 header {
     border: 2px;
     border-bottom: var(--dark) 5px;
-    display: fixed;
-    position: fixed center;
     text-align: center;
-    top: 0;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -119,18 +121,6 @@ footer {
     font-size: 30px;
     font-weight: bold;
 }
-
-/* NOTE: Centered all bio information in the about section */
-
-.bio {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 300px;
-    width: 700px;
-    text-align: center;
-    font-size: 16px;
-}  
 
 .maincontainer {
     max-width: 100%;
@@ -259,6 +249,8 @@ footer {
 figcaption {
     font-size: 16px;
 }
+
+
 /* NOTE: Added media Query to make the page more responsive to screen sizes */
 @media only screen and (max-width: 768px) {
 
@@ -276,7 +268,7 @@ figcaption {
     }
 
     .bio {
-        height: 400px;
+        height: 600px;
         width: 500px;
     }  
 
