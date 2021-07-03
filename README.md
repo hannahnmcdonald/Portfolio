@@ -13,18 +13,20 @@ Link to Deployed Application: https://hannahnmcdonald.github.io/Portfolio/
 
 
 Desktop Screenshot:
-![Desktop Screenshot](./images/desktopportfolioscreenshot.png)
+![Desktop Screenshot](./images/PortfolioDesktop.png)
 
 _____________________________________________________________________________________________________________________________________________________________________
 Mobile Screenshot:
 
 
 
-![Mobile Screenshot1](./images/mobileportfolioscreenshot1.png)
-![Mobile Screenshot2](./images/mobileportfolioscreenshot2.png)
-![Mobile Screenshot3](./images/mobileportfolioscreenshot3.png)
-![Mobile Screenshot4](./images/mobileportfolioscreenshot4.png)
-![Mobile Screenshot5](./images/mobileportfolioscreenshot5.png)
+![Mobile Screenshot1](./images/PortfolioMobile1.png)
+![Mobile Screenshot2](./images/PortfolioMobile2.png)
+![Mobile Screenshot3](./images/PortfolioMobile3.png)
+![Mobile Screenshot4](./images/PortfolioMobile4.png)
+![Mobile Screenshot5](./images/PortfolioMobile5.png)
+![Mobile Screenshot6](./images/PortfolioMobile6.png)
+
 
 Installation: N/A
 
