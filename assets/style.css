@@ -12,7 +12,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-left: 100px;
 }
 /* NOTE: Added link options for the top nav bar links */
 a.toplink:link {
@@ -59,7 +58,6 @@ h2 {
     font-size: 30px ;
     font-weight: bolder;
     text-align: center;
-    display: inline-block;
 }
 
 header {
@@ -71,6 +69,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 main {
@@ -92,6 +91,11 @@ footer {
     position: relative;
     text-align: center;
 }
+
+.treeline {
+    width: 100%;
+}
+
 /* NOTE: Added styling to image at tope of page so that it is centered and sized correctly to be a divider between the navigation bar and the webpage content */
 
 .birds{
@@ -120,6 +124,10 @@ footer {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+}
+
+.bio {
+    width: 50%;
 }
 
 .maincontainer {
@@ -183,7 +191,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 5px;
 }
 .secondapps{ 
     display: flex;
@@ -264,14 +272,12 @@ figcaption {
         font-size: 20px;
     }
 
-    }
     .contactlinks a {
         line-height: 50px;
     }
 
     .bio {
-        height: 600px;
-        width: 500px;
+        width: 100%;
     }  
 
     .firstcontainer{
@@ -280,6 +286,7 @@ figcaption {
         font-size: 15px;
         align-self: center;
         margin: inherit;
+        flex: 0 0 80%;
     }
 
     .firstphoto { 
@@ -296,6 +303,7 @@ figcaption {
         height: 60%;
         width: 25%;
         font-size: 12px;
+        flex: 0 0 80%;
     }
 
     .secondphotos {
@@ -313,8 +321,21 @@ figcaption {
      }
 
      .treeline {
-         width: 100%;
+        width: 100%;
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .hannah {
+        width: 75%;
+    }
+
+    .fa {
+        margin: 0px;
         padding: 0px;
     }
 
+    .contactlinks {
+        flex-wrap:nowrap;
+    }
 }
